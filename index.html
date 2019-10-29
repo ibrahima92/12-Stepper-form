@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Stepper Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="stepper">
+        <div class="step--1 step-active">Step 1</div>
+        <div class="step--2">Step 2</div>
+        <div class="step--3">Step 3</div>
+        <div class="step--4">Finish</div>
+      </div>
+      <form class="form form-active">
+        <div class="form--header-container">
+          <h1 class="form--header-title">
+            Personal Info
+          </h1>
+
+          <p class="form--header-text">
+            Tell us more about you.
+          </p>
+        </div>
+        <input type="text" placeholder="Name" />
+        <input type="text" placeholder="Email" />
+        <input type="text" placeholder="Password" />
+        <button class="form__btn" id="btn-1">Next</button>
+      </form>
+      <form class="form">
+        <div class="form--header-container">
+          <h1 class="form--header-title">
+            Company Info
+          </h1>
+
+          <p class="form--header-text">
+            Tell us more about your company.
+          </p>
+        </div>
+
+        <input type="text" placeholder="Company Name" />
+        <input type="text" placeholder="Job title" />
+        <input type="text" placeholder="Location" />
+        <button class="form__btn" id="btn-2-prev">Previous</button>
+        <button class="form__btn" id="btn-2-next">Next</button>
+      </form>
+      <form class="form">
+        <div class="form--header-container">
+          <h1 class="form--header-title">
+            Social account
+          </h1>
+
+          <p class="form--header-text">
+            Tell us more about your social account.
+          </p>
+        </div>
+        <input type="text" placeholder="Linkedin" />
+        <input type="text" placeholder="Twitter" />
+        <input type="text" placeholder="Github" />
+        <button class="form__btn" id="btn-3">Submit</button>
+      </form>
+      <div class="form--message"></div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
