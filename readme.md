@@ -1,4 +1,4 @@
-# Fullscreen Slider
+# Stepper Form
 
 This project is built with **HTML** **CSS** and **JavaScript**
 
